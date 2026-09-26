@@ -26,5 +26,34 @@ To set up and use the widget on your EdgeTX radio:
 * 📶 **RSSI Indicator:** Center circle reflects signal quality and status (Green **A** when Armed, Red **D** when Disarmed).
 * 🚨 **Link Alerts:** Visual flashes on telemetry loss or reconnection.
 
+# F4Ftelem - EdgeTX Lua Widget
+
+**F4Ftelem** is an advanced telemetry Lua widget designed for color-screen EdgeTX radios (such as the Helloradio v12 MAX. optimized specifically for FPV drones and radio control systems running **ExpressLRS (ELRS)**.
+
+This widget combines a futuristic cut-box visual design with intelligent hybrid navigation between telemetry pages and an automated post-flight summary (*Flight Debrief*).
+
+---
+
+## 🚀 Key Features
+
+* **Hybrid Navigation (Manual + Automatic):** 
+  * Switch between pages manually using a configured channel/source (by moving to the endpoints $> 95\%$ or $< -95\%$).
+  * If there is no manual input, the widget automatically cycles through pages based on a configurable interval timer.
+* **4 Specialized Pages:**
+  1. **POWER CORE:** Detailed battery monitoring (percentage, consumed capacity in mAh, real-time voltage, and current draw).
+  2. **RF LINK [ELRS]:** Vital radio link metrics (Link Quality `RQly`, Antenna 1 RSSI, RSNR, Transmitter RSSI `TRSS`, and Transmission Power `TPWR`).
+  3. **MISSION & STATUS:** Prominent flight timer and real-time connection status (`ONLINE` / `NO LINK`).
+  4. **RACING TEAM:** Custom themed screen featuring a checkered flag design and FPV branding.
+* **Flight Debrief (Post-Flight Summary):** As soon as telemetry is lost (motor disarmed or model out of range), the widget automatically displays a summary screen showing minimum voltage, minimum RF signal levels, and peak consumed capacity from the completed flight.
+
+---
+
+## 📂 Installation
+
+1. Copy the `f4ftelem` folder to your radio SD card WIDGETS directory:
+ 
+/WIDGETS/f4ftelem/main.lua
+
+
 ## 📜 License
 This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the `LICENSE` file for details.
