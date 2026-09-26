@@ -1,10 +1,12 @@
 # F4FLEDSTIX EdgeTX Widget
 
 A custom EdgeTX widget designed to manage LED strips dynamically based on telemetry, arm status, and stick positions on 360x240 radios.
+Fully tested on **Helloradio V12 MAX**
 
 ## ⚙️ 1. Initial Configuration & Options
 To set up and use the widget on your EdgeTX radio:
 * 📂 **Installation:** Place the script file into the `/WIDGETS/` folder on your radio's SD card.
+* <img width="1920" height="1445" alt="F4F_LEDSTIX" src="https://github.com/user-attachments/assets/61df0867-9636-4593-bb8f-37d3d3a32ab1" />
 * 🎨 **BgColor:** Main background color of radios interface.
 * 🕹️ **StickColor:** Stick center points and highlight elements color.
 * ⭕ **GimbalColor:** Base and grid color for stick simulators.
