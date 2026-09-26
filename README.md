@@ -51,6 +51,8 @@ This widget combines a futuristic cut-box visual design with intelligent hybrid 
 ## 📂 Installation
 
 1. Copy the `f4ftelem` folder to your radio SD card WIDGETS directory:
+2. <img width="1920" height="1466" alt="F4F_TELEM" src="https://github.com/user-attachments/assets/c9500ea4-5ead-40fd-830e-c7a36493c3b5" />
+
  
 /WIDGETS/f4ftelem/main.lua
 
